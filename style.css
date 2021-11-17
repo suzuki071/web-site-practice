@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 共通部分ここから title, text */
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  display: inline-block;
+  position: relative;
+}
+
+.title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 70px; /*下線の幅*/
+  height: 3px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #EC715F; /*下線の色*/
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+/* 共通部分ここまで title, text */
+
+/* ナビゲーション部分ここから */
+.nav {
+  background-color: #EC715F; /*背景色*/
+  color: #FAFAFA; /*テキスト色*/
+  font-size: 16px; /*フォントサイズ*/
+  height: 70px; /*上下幅*/
+  width: 100%; /*横幅*/
+}
+
+.nav-box {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.nav-logo-img {
+  height: 70px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+.nav-list-item {
+  margin: auto 30px;
+}
+/* ナビゲーション部分ここまで */
+
+/* メインビジュアルここから */
+.main {
+  background-image: url(img/mv.png);
+  background-size: 100% auto;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+}
+
+.main-box {
+  width: 100%;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 64px;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+
+.main-sub-title {
+  font-size: 20px;
+  color: #FAFAFA;
+}
+/* メインビジュアルここまで */
+
+/* Portfolioここから */
+.pf {
+  background-color: #ECEFF1;
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.pf-box {
+  width: 920px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pf-box > li:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pf-box > li:nth-child(5) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pf-item {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pf-img-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.pf-img-2 {
+  background-image: url(img/websuku.png);
+}
+
+.pf-img-3 {
+  background-image: url(img/write.jpg);
+}
+
+.pf-img-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.pf-img-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.pf-img-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+/* Portfolioここまで */
+
+/* Feature部分ここから */
+.feature {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.feature-box {
+  width: 980px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-box > li:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.feature-item {
+  width: 320px;
+}
+
+.feature-item-title {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* Feature部分ここまで */
+
+
+
+
