@@ -334,7 +334,7 @@
 /* footer部分ここまで */
 
 /* レスポンシブ対応ここから（画面幅767px以下で適応される設定） */
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
   /* 共通部分ここから title, text */
   .text {
     width: 90%;
